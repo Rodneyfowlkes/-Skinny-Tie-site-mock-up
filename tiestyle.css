@@ -1,0 +1,16 @@
+.PAGEBODY {
+	margin: 0px 0px 8px 0px;
+}
+
+.header_div {
+	background-color: #FA6938;
+	color: white;
+	height: 32px
+}
+.header_span1 {
+	background-color: #C6522B;
+}
+
+.header_span {
+	background-color: #FA6938;
+}
