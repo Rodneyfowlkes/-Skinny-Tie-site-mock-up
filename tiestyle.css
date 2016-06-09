@@ -9,8 +9,41 @@
 }
 .header_span1 {
 	background-color: #C6522B;
+	margin: 0% 0% 0% 7.458%; 
 }
 
 .header_span {
-	background-color: #FA6938;
+	background-color: grey;
+    border-width: 3px;
+    border-color: blue;
+	margin: 0% 0% 0% 2.99%; 
 }
+/*main  "Skinny ties" navbar css
+*/ 
+
+.mainnavbar {
+	background-color: #96A382;
+    height: 100px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*span {
+	border-color: grey;
+	border-width: 10px;
+}*/
