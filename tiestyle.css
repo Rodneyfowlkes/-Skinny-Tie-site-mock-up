@@ -26,14 +26,49 @@
     height: 100px; 
 }
 
+.skinnytielogo {
+	display: inline;
+	right: 0px
+	width: 40px;
+	height: 100px;
+	background-color: grey;
+	margin-top: 30px;
+}
+
+.navbuttons {
+
+	float: right;
+	background-color: blue;
+	min-height: 80px;
+	margin-right: 5%;
+}
+
+.navbutton_pattern {
+
+	float: right;
+	background-color: blue;
+	min-height: 80px;
+	margin-right: 10%;
+}
+
+.search-cart_div {
+
+	float: right;
+	background-color: grey;
+}
 
 
+.navbar_signin_searchbar {
 
+	float: right;
+	background-color: #D4AED8;
+}
 
+.navbar_shoppingcart {
 
-
-
-
+	float: right;
+	background-color: blue;
+}
 
 
 
