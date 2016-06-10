@@ -48,7 +48,7 @@
 	float: right;
 	background-color: blue;
 	min-height: 80px;
-	margin-right: 10%;
+	margin-right: 10z%;
 }
 
 .search-cart_div {
@@ -71,12 +71,85 @@
 }
 
 
+.tiebar_display_div {
+   background-color: #E59697;
+}
+
+.tiestyle_img_div {
+    
+	margin: auto;
+	width: 50vw;
+}
+
+.startdressingbetter_div {
+	background-color: #EECD86;
+}
 
 
 
 
+@media screen and (max-width:650px) {
+.tiebar_tie_img {
+    display: block;
 
+}
+.tiestyle_img_div {
+    
+	margin: auto;
+	width: 50vw;
+}
+}
 
+/*beginning of the floated bowties, pocket squares, and tie bars floated div structure
+*/
+
+.bow_squares_bars_div {
+background-color: grey;
+position: relative;
+padding-left: 10vw;
+padding-right: 10vw;
+margin: auto;
+width: 70vw;
+
+}
+
+.bowties_div {
+    display: inline;
+    width: 10vw;
+    right: 0px;
+}
+
+.pocketsquares_div {
+    display: inline;
+    width: 10vw;
+
+}
+
+.tiebars_div {
+    display: inline;
+    width: 10vw;
+margin-left: 5vw;
+}
+
+/*Absolute text divs below
+*/ 
+
+.bow_ties_text {
+display: inline;
+width: 5vw;
+}
+
+.pocket_squares_text {
+display: inline;
+
+width: 5vw;
+}
+
+.tie_bars_text {
+display: inline;
+
+width: 5vw;
+}
 
 /*span {
 	border-color: grey;
