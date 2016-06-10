@@ -168,6 +168,29 @@ width: 5vw;
 
  }
 
+ .weekly_pick_div {
+ 	margin-left: 21vw;
+max-width: 200px;
+height: 10vw;
+float: left;
+background-color: #CAD4EB; 
+ }
+ 
+ .loop_us_in_div {
+max-width: 200px;
+height: 10vw;
+float: left;
+background-color: #EECD86;
+ }
+
+.the_quarterly_div {
+max-width: 200px;
+float: left;
+height: 10vw;
+background-color: #E59697;
+ }
+
+
 /*span {
 	border-color: grey;
 	border-width: 10px;
