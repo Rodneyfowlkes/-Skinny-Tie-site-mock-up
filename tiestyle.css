@@ -110,25 +110,32 @@ padding-left: 10vw;
 padding-right: 10vw;
 margin: auto;
 width: 70vw;
+height: 20vw;
 
 }
 
 .bowties_div {
-    display: inline;
+/*    display: inline;
+*/
+    float: left;
+    margin-right: 1vw;
     width: 10vw;
     right: 0px;
+    background-color: #CAD4EB;
 }
 
 .pocketsquares_div {
-    display: inline;
+    float: left;
+    margin-right: 1vw;
     width: 10vw;
-
+    background-color: #CAD4EB;
 }
 
 .tiebars_div {
-    display: inline;
+    float: left;
+    margin-right: 1vw;
     width: 10vw;
-margin-left: 5vw;
+    background-color: #CAD4EB;
 }
 
 /*Absolute text divs below
@@ -150,6 +157,16 @@ display: inline;
 
 width: 5vw;
 }
+
+
+.view_our_history_div { 
+   background-color: #96A382;
+   height: 10vw;
+   border-bottom-style: dotted;
+   border-color: grey;
+   border-bottom-width: 3px;
+
+ }
 
 /*span {
 	border-color: grey;
