@@ -5,18 +5,56 @@
 .header_div {
 	background-color: #FA6938;
 	color: white;
-	height: 32px
+	height: 32px;
+	position: relative;
 }
 .header_span1 {
 	background-color: #C6522B;
-	margin: 0% 0% 0% 7.458%; 
+	position: absolute;
+	margin: .588% 0% 0% 9.28%; 
+	
+	font-size: 70%;
+    padding: 4px;
+    padding-left: 5px;
+    -moz-border-radius: 3px;
+border-radius: 3px;
+
 }
 
-.header_span {
+.header_span2 {
 	background-color: grey;
     border-width: 3px;
     border-color: blue;
-	margin: 0% 0% 0% 2.99%; 
+	margin: .7% 0% 0% 18.99%;
+	position: absolute;
+	
+
+}
+
+.header_span3 {
+	background-color: grey;
+	position: absolute;
+    border-width: 3px;
+    border-color: blue;
+	margin: .7% 0% 0% 29.99%; 
+}
+
+.header_span4 {
+	background-color: grey;
+	position: absolute;
+    border-width: 3px;
+    border-color: blue;
+	margin: .7% 0% 0% 39.99%; 
+}
+
+
+
+.header_span5 {
+	background-color: grey;
+	position: absolute;
+    border-width: 3px;
+    border-color: blue;
+	margin: .7% 0% 0% 49.99%; 
 }
 /*main  "Skinny ties" navbar css
 */ 
@@ -168,6 +206,10 @@ width: 5vw;
 
  }
 
+.prefooter_bar {
+	overflow: auto;
+}
+
  .weekly_pick_div {
  	margin-left: 21vw;
 max-width: 200px;
@@ -190,7 +232,79 @@ height: 10vw;
 background-color: #E59697;
  }
 
+ .style_guide_div {
+max-width: 200px;
+height: 10vw;
+float: left;
+background-color: #EECD86;
 
+ }
+
+.footerbar_links_contactus_div {
+	background-color: #9A8568;
+	position: relative;
+    height: 25vw;
+
+}
+
+
+
+
+
+.footerbar_links  {
+display: block;
+
+
+}
+
+.footerbar_shopby_div {
+background-color: grey;
+	 width: 100px;
+	position: absolute;	
+
+}
+
+
+.footerbar_aboutus_div {
+background-color: #CAD4EB;
+ width: 100px;
+	position: absolute;	
+    left: 13%;
+}
+
+
+.footerbar_styleguide_div {
+background-color: #EECD86;
+	 width: 100px;
+	 position: absolute;	
+    left: 26%;
+
+}
+
+.footerbar_help_div {
+background-color: grey;
+	 width: 100px;
+    left: 40%;
+
+	 position: absolute;	
+
+}
+
+.footerbar_contactus_div
+{    float: right;	
+     margin-right: 10vw;
+	  width: 100px;
+}
+
+.contactus_here_for_you{
+    display: block;
+}
+
+
+
+.footerbar_contactus_botton {
+	position: absolute;
+}
 /*span {
 	border-color: grey;
 	border-width: 10px;
