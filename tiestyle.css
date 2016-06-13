@@ -298,7 +298,7 @@ border-radius: 3px;
 */
 
 .bow_squares_bars_div {
-background-color: grey;
+background-color: white;
 position: relative;
 /*padding-left: 10vw;
 padding-right: 10vw;*/
@@ -335,11 +335,12 @@ padding-top: 42px;
 }
 
 .pocket_squares_img {
-	zoom: .7;
+	zoom: .58;
+
 }
 
 .tiebar_img {
-	zoom: .7;
+	zoom: .58;
 }
 
 .tiebars_div {
@@ -355,35 +356,86 @@ padding-top: 42px;
 
 .bow_ties_text {
 display: inline;
-width: 5vw;
+width: 10vw;
 position: absolute;
-top: 10px;
-left: 240px;
-font-family: 'Lato', sans-serif;
-    font-weight: bolder;
+top: 15px;
+left: 180px;
+font-family: 'Titillium Web', sans-serif;
+font-weight: 900;
+font-size: 120%;
 }
 
 .pocket_squares_text {
 display: inline;
 position: absolute;
 width: 5vw;
+top: 15px;
+left: 200px;
+font-family: 'Titillium Web', sans-serif;
+font-weight: 900;
+font-size: 130%;
+text-align: right;
+
 }
 
 .tie_bars_text {
 display: inline;
 position: absolute; 
-width: 5vw;
+width: 10vw;
+font-family: 'Titillium Web', sans-serif;
+font-weight: 900;
+font-size: 130%;
+text-align: left;
+top: 10px;
+left: 180px;
 }
 
 
+
+
+
+
+
+
+
+
+
+
 .view_our_history_div { 
-   background-color: #96A382;
+   
    height: 10vw;
    border-bottom-style: dotted;
    border-color: grey;
    border-bottom-width: 3px;
-
+   text-align: center;
+  font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 170%;
+   
+    margin: auto;
+    margin-top: 30px;
  }
+
+.after_years {
+
+	text-align: center;
+  font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 100%;
+}
+
+
+.our_story  {
+
+	
+	padding-top: 13px;
+	color: #1693FF;
+}
+
+.ourlink  {
+text-decoration: none;
+font-size: 50%
+}
 
 .prefooter_bar {
 	overflow: auto;
@@ -398,6 +450,7 @@ background-color: #CAD4EB;
  }
  
  .loop_us_in_div {
+ 	margin-left: 3vw;
 max-width: 200px;
 height: 10vw;
 float: left;
@@ -405,6 +458,7 @@ background-color: #EECD86;
  }
 
 .the_quarterly_div {
+	margin-left: 3vw;
 max-width: 200px;
 float: left;
 height: 10vw;
@@ -412,6 +466,7 @@ background-color: #E59697;
  }
 
  .style_guide_div {
+ 	margin-left: 3vw;
 max-width: 200px;
 height: 10vw;
 float: left;
