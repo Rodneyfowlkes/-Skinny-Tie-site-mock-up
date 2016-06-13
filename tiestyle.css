@@ -63,7 +63,7 @@ border-radius: 3px;
 */ 
 
 .mainnavbar {
-	background-color: #96A382;
+	background-color: white;
     height: 100px; 
 }
 
@@ -72,33 +72,36 @@ border-radius: 3px;
 	display: inline;
 	
 	width: 40px;
-	height: 100px;
-	background-color: grey;
-	margin-left: 9.01%;
+	height: 97px;
+	/*background-color: grey;*/
+	margin-left: 9%;
 
 
 }
 
 .skinnytielogo_img {
 
-	max-width: 110px;
+	max-width: 105px;
 }
 
 .navbuttons {
 
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
 	float: right;
-	background-color: blue;
-	margin-top: 3vw;
+/*	background-color: blue;
+*/	margin-top: 3.5vw;
 	margin-right: 2.5%;
 	font-size: 121%;
 }
 
 .navbutton_pattern {
-
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
 	float: right;
-	background-color: blue;
-    margin-top: 3vw;
-	margin-right: 17%;
+/*	background-color: blue;
+*/    margin-top: 3.5vw;
+	margin-right: 11%;
 	font-size: 121%;
 }
 
@@ -113,7 +116,7 @@ border-radius: 3px;
 .navbar_signin_searchbar {
 
 	float: right;
-	background-color: #D4AED8;
+	background-color: white;
 	margin-top: 2vw;
 	position: relative;
 }
@@ -123,15 +126,16 @@ border-radius: 3px;
 	float: right;
 	background-color: white;
 	border-color: black;
-	margin-top: 3vw;
-	margin-right: 1vw;
-    width: 45px;
+	margin-top: 2.81vw;
+	margin-right: 1.1vw;
+    width: 50px;
     height: 20px;
-    border: 1px solid #E8E8E8;
+    border: 3px solid #E8E8E8;
     -moz-border-radius: 3px;
     border-radius: 3px;
     padding-left: 9%;
    position: relative;
+   font-size: 80%;
 
   }
 
@@ -141,21 +145,39 @@ border-radius: 3px;
 	width: 28px;
 	height: 28px;
 	position: absolute;
-	zoom: .5;
+	zoom: .47;
 	top: 20%;
 
-	left: 2px;
+	left: 18px;
 }
 
+.cart_text {
+	position: absolute;
+	margin-top: 3px;
+	top: 7%;
+	left: 27px;
+}
 
-.navbar_signin_register_text
+.navbar_signin_text
 {   position: absolute;
 	color: lightgrey;
-	top: -10px;
+	top: -14px;
 	font-size: 60%;
-
+	left: 41px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
 }
 
+.navbar_register_text {
+	position: absolute;
+	color: lightgrey;
+	top: -14px;
+	font-size: 60%;
+	left: 86px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+
+}
 .navbar_searchbar {
 	margin-top: 6%;
 
@@ -165,9 +187,9 @@ border-radius: 3px;
 	width: 26px;
 	height: 26px;
 	position: absolute;
-	top: 40%;
+	top: 44%;
 	left: 3%;
-	zoom: .5;
+	zoom: .44;
 	border-color: transparent;
 }
 
@@ -175,7 +197,7 @@ border-radius: 3px;
 	padding-left: 20px;
 	height: 19px;
 	width: 70%;
-	border: 2px solid #E8E8E8;
+	border: 3px solid #E8E8E8;
     -moz-border-radius: 3px;
     border-radius: 3px;
 
@@ -184,20 +206,80 @@ border-radius: 3px;
 
 
 .tiebar_display_div {
-   background-color: #E59697;
+   background-color: #F4F4F4;
+   height: 329px;
 }
 
 .tiestyle_img_div {
     
 	margin: auto;
-	width: 50vw;
+	width: 80vw;
 }
 
 .startdressingbetter_div {
-	background-color: #EECD86;
+	
+	width: 90vw;
+	margin: 5.1vw auto;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 306%;
+}
+
+.tiebar_tie_img1
+{
+	zoom: .6;
+	margin-right: 2.7vw;
+    margin-left: 7vw;
+}
+
+.tiebar_tie_img
+{
+	zoom: .6;
+	margin-right: 2.7vw;
+}
+.tie_color_labels {
+	
+}
+
+.tiecolor_names1 {
+	margin-left: 16vw;
+	font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    margin-right: 5.5vw;
+     font-size: 75%;
+}
+
+.tiecolor_names {
+    margin-right: 4.2vw;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+     font-size: 75%;
+}
+
+.tiecolor_names2 {
+	
+	font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    margin-right: 5.7vw;
+     font-size: 75%;
 }
 
 
+.tiecolor_names3 {
+	margin-left: 1.3vw;
+	font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 75%;
+}
+
+.tiecolor_names4 {
+	margin-left: -.6vw;
+	font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    margin-right: 4vw;
+     font-size: 75%;
+}
 
 
 @media screen and (max-width:650px) {
@@ -218,32 +300,50 @@ border-radius: 3px;
 .bow_squares_bars_div {
 background-color: grey;
 position: relative;
-padding-left: 10vw;
-padding-right: 10vw;
+/*padding-left: 10vw;
+padding-right: 10vw;*/
 margin: auto;
-width: 70vw;
+/*width: 70vw;*/
 height: 20vw;
+padding-top: 42px;
 
 }
 
 .bowties_div {
 /*    display: inline;
-*/
+*/  position: relative;
     float: left;
-    margin-right: 1vw;
-    width: 10vw;
+    margin-right: 9vw;
+    margin-left: 8.7vw;
+    width: 20vw;
+    height: 15vw;
     right: 0px;
+    background-color: #CAD4EB;
+
+}
+
+.bowties_img {
+
+	zoom: .7;
+}
+
+.pocketsquares_div { position: relative;
+    float: left;
+    margin-right: 19vw;
+    width: 10vw;
     background-color: #CAD4EB;
 }
 
-.pocketsquares_div {
-    float: left;
-    margin-right: 1vw;
-    width: 10vw;
-    background-color: #CAD4EB;
+.pocket_squares_img {
+	zoom: .7;
+}
+
+.tiebar_img {
+	zoom: .7;
 }
 
 .tiebars_div {
+	position: relative;
     float: left;
     margin-right: 1vw;
     width: 10vw;
@@ -256,17 +356,22 @@ height: 20vw;
 .bow_ties_text {
 display: inline;
 width: 5vw;
+position: absolute;
+top: 10px;
+left: 240px;
+font-family: 'Lato', sans-serif;
+    font-weight: bolder;
 }
 
 .pocket_squares_text {
 display: inline;
-
+position: absolute;
 width: 5vw;
 }
 
 .tie_bars_text {
 display: inline;
-
+position: absolute; 
 width: 5vw;
 }
 
