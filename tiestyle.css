@@ -22,7 +22,7 @@ border-radius: 3px;
 }
 
 .header_span2 {
-	background-color: grey;
+	background-color: #FA6938;
     border-width: 3px;
     border-color: blue;
 	margin: .7% 0% 0% 18.60%;
@@ -32,32 +32,35 @@ border-radius: 3px;
 }
 
 .header_span3 {
-	background-color: grey;
+	background-color: #FA6938;
 	position: absolute;
     border-width: 3px;
     border-color: blue;
 	margin: .7% 0% 0% 29.99%; 
 	font-size: 89%;
+	padding-left: 9px;
 }
 
 .header_span4 {
-	background-color: grey;
+	background-color: #FA6938;
 	position: absolute;
     border-width: 3px;
     border-color: blue;
 	margin: .7% 0% 0% 41.35%; 
 	font-size: 89%;
+	padding-left: 9px;
 }
 
 
 
 .header_span5 {
-	background-color: grey;
+	background-color: #FA6938;
 	position: absolute;
     border-width: 3px;
     border-color: blue;
 	margin: .7% 0% 0% 53.39%; 
     font-size: 89%;
+    padding-left: 7px;
 }
 /*main  "Skinny ties" navbar css
 */ 
@@ -202,6 +205,202 @@ border-radius: 3px;
     border-radius: 3px;
 
 }
+
+	.scallop_border1 
+	{ display: inline;
+		background-color: transparent;
+		position: absolute;
+		zoom: .6;
+		top: 215px;
+	}
+
+	.scallop_border2 
+	{ display: inline;
+		background-color: transparent;
+		position: absolute;
+		zoom: .6;
+		left: 89px;
+		top: 215px;
+	}.scallop_border3 
+	{ display: inline;
+		background-color: transparent;
+		position: absolute;
+		zoom: .6;
+		left: 177px;
+		top: 215px;
+	}.scallop_border4 
+	{ display: inline;
+		background-color: transparent;
+		position: absolute;
+		zoom: .6;
+		left: 265px;
+		top: 215px;
+	}.scallop_border5 
+	{ display: inline;
+		background-color: transparent;
+		position: absolute;
+		zoom: .6;
+	    left: 353px;
+		top: 215px;
+	}.scallop_border6 
+	{ display: inline;
+		background-color: transparent;
+		position: absolute;
+		zoom: .6;
+		left: 441px;
+		top: 215px;
+	}.scallop_border7 
+	{ display: inline;
+		background-color: transparent;
+		position: absolute;
+		zoom: .6;
+		left: 529px;
+		top: 215px;
+	}.scallop_border8 
+	{ display: inline;
+		background-color: transparent;
+		position: absolute;
+		zoom: .6;
+		left: 617px;
+		top: 215px;
+	}.scallop_border9 
+	{ display: inline;
+		background-color: transparent;
+		position: absolute;
+		zoom: .6;
+		left: 705px;
+		top: 215px;
+	}.scallop_border10 
+	{ display: inline;
+		background-color: transparent;
+		position: absolute;
+		zoom: .6;
+		left: 793px;
+		top: 215px;
+	}.scallop_border11 
+	{ display: inline;
+		background-color: transparent;
+		position: absolute;
+		zoom: .6;
+		left: 881px;
+		top: 215px;
+	}.scallop_border12 
+	{ display: inline;
+		background-color: transparent;
+		position: absolute;
+		zoom: .6;
+		left: 969px;
+		top: 215px;
+	}.scallop_border13 
+	{ display: inline;
+		background-color: transparent;
+		position: absolute;
+		zoom: .6;
+		left: 1057px;
+		top: 215px;
+	}.scallop_border14 
+	{ display: inline;
+		background-color: transparent;
+		position: absolute;
+		zoom: .6;
+		left: 1145px;
+		top: 215px;
+	}.scallop_border15 
+	{ display: inline;
+		background-color: transparent;
+		position: absolute;
+		zoom: .6;
+		left: 1233px;
+		top: 215px;
+	}
+
+	.scallop_border16 
+	{ display: inline;
+		background-color: transparent;
+		position: absolute;
+		zoom: .6;
+		left: 1321px;
+		top: 215px;
+	}.scallop_border17 
+	{ display: inline;
+		background-color: transparent;
+		position: absolute;
+		zoom: .6;
+		left: 1409px;
+		top: 215px;
+	}.scallop_border18 
+	{ display: inline;
+		background-color: transparent;
+		position: absolute;
+		zoom: .6;
+		left: 1497px;
+		top: 215px;
+	}.scallop_border19 
+	{ display: inline;
+		background-color: transparent;
+		position: absolute;
+		zoom: .6;
+		left: 1585px;
+		top: 215px;
+	}.scallop_border20 
+	{ display: inline;
+		background-color: transparent;
+		position: absolute;
+		zoom: .6;
+		left: 1673px;
+		top: 215px;
+	}.scallop_border21 
+	{ display: inline;
+		background-color: transparent;
+		position: absolute;
+		zoom: .6;
+		left: 1761px;
+		top: 215px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -429,11 +628,14 @@ left: 180px;
 	
 	padding-top: 13px;
 	color: #1693FF;
+
 }
 
 .ourlink  {
 text-decoration: none;
-font-size: 50%
+font-size: 60%;
+color: #1693FF;
+
 }
 
 .prefooter_bar {
@@ -480,7 +682,7 @@ font-size: 90%;
 max-width: 200px;
 height: 10vw;
 float: left;
-background-color: #EECD86;
+
  padding-top: 3.3vw;
  position: relative;
  }
@@ -547,7 +749,7 @@ position: relative;
 max-width: 200px;
 float: left;
 height: 10vw;
-background-color: #E59697;
+
  padding-top: 3.3vw;
  position: relative;
  }
@@ -603,7 +805,7 @@ color: white;
 max-width: 200px;
 height: 10vw;
 float: left;
-background-color: #EECD86;
+
 font-family: 'Titillium Web', sans-serif;
 font-weight: 900;	
 font-size: 90%;
@@ -652,11 +854,193 @@ text-decoration: none;
 }
 
 
+.fscallop_border1 
+{ display: inline;
+	background-color: transparent;
+	position: absolute;
+	zoom: .6;
+	left: 0px;
+	top: 1970px;
+}
+
+.fscallop_border2 
+{ display: inline;
+	background-color: transparent;
+	position: absolute;
+	zoom: .6;
+	left: 89px;
+	top: 1970px;
+}.fscallop_border3 
+{ display: inline;
+	background-color: transparent;
+	position: absolute;
+	zoom: .6;
+	left: 177px;
+	top: 1970px;
+}.fscallop_border4 
+{ display: inline;
+	background-color: transparent;
+	position: absolute;
+	zoom: .6;
+	left: 265px;
+	top: 1970px;
+}.fscallop_border5 
+{ display: inline;
+	background-color: transparent;
+	position: absolute;
+	zoom: .6;
+    left: 353px;
+	top: 1970px;
+}.fscallop_border6 
+{ display: inline;
+	background-color: transparent;
+	position: absolute;
+	zoom: .6;
+	left: 441px;
+	top: 1970px;
+}.fscallop_border7 
+{ display: inline;
+	background-color: transparent;
+	position: absolute;
+	zoom: .6;
+	left: 529px;
+	top: 1970px;
+}.fscallop_border8 
+{ display: inline;
+	background-color: transparent;
+	position: absolute;
+	zoom: .6;
+	left: 617px;
+	top: 1970px;
+}.fscallop_border9 
+{ display: inline;
+	background-color: transparent;
+	position: absolute;
+	zoom: .6;
+	left: 705px;
+	top: 1970px;
+}.fscallop_border10 
+{ display: inline;
+	background-color: transparent;
+	position: absolute;
+	zoom: .6;
+	left: 793px;
+	top: 1970px;
+}.fscallop_border11 
+{ display: inline;
+	background-color: transparent;
+	position: absolute;
+	zoom: .6;
+	left: 881px;
+	top: 1970px;
+}.fscallop_border12 
+{ display: inline;
+	background-color: transparent;
+	position: absolute;
+	zoom: .6;
+	left: 969px;
+	top: 1970px;
+}.fscallop_border13 
+{ display: inline;
+	background-color: transparent;
+	position: absolute;
+	zoom: .6;
+	left: 1057px;
+	top: 1970px;
+}.fscallop_border14 
+{ display: inline;
+	background-color: transparent;
+	position: absolute;
+	zoom: .6;
+	left: 1145px;
+	top: 1970px;
+}.fscallop_border15 
+{ display: inline;
+	background-color: transparent;
+	position: absolute;
+	zoom: .6;
+	left: 1233px;
+	top: 1970px;
+}
+
+.fscallop_border16 
+{ display: inline;
+	background-color: transparent;
+	position: absolute;
+	zoom: .6;
+	left: 1321px;
+	top: 1970px;
+}.fscallop_border17 
+{ display: inline;
+	background-color: transparent;
+	position: absolute;
+	zoom: .6;
+	left: 1409px;
+	top: 1970px;
+}.fscallop_border18 
+{ display: inline;
+	background-color: transparent;
+	position: absolute;
+	zoom: .6;
+	left: 1497px;
+	top: 1970px;
+}.fscallop_border19 
+{ display: inline;
+	background-color: transparent;
+	position: absolute;
+	zoom: .6;
+	left: 1585px;
+	top: 1970px;
+}.fscallop_border20 
+{ display: inline;
+	background-color: transparent;
+	position: absolute;
+	zoom: .6;
+	left: 1673px;
+	top: 1970px;
+}.fscallop_border21 
+{ display: inline;
+	background-color: transparent;
+	position: absolute;
+	zoom: .6;
+	left: 1761px;
+	top: 1970px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footerbar_links_contactus_div {
-	background-color: #9A8568;
+	background-color: #F4F4F4;
 	position: relative;
     height: 12vw;
+
 
 }
 
@@ -676,7 +1060,7 @@ color: #787878
 }
 
 .footerbar_shopby_div {
-background-color: grey;
+
 	 width: 100px;
 	position: absolute;	
 	margin-left: 8.8vw;
@@ -692,7 +1076,7 @@ font-size: 80%;
 }
 
 .footerbar_aboutus_div {
-background-color: #CAD4EB;
+
  width: 100px;
 	position: absolute;	
     left: 17%;
@@ -711,7 +1095,7 @@ font-size: 80%;
 
 
 .footerbar_styleguide_div {
-background-color: #EECD86;
+
 	 width: 100px;
 	 position: absolute;	
     left: 27%;
@@ -725,7 +1109,7 @@ font-size: 80%;
 	}
 
 .footerbar_help_div {
-background-color: grey;
+
 	 width: 100px;
     left: 37%;
 
@@ -745,19 +1129,84 @@ font-size: 80%;
 
 .footerbar_contactus_div
 {    float: right;	
-     margin-right: 10vw;
-	  width: 100px;
-}
+     margin-right: 8.7vw;
+     margin-top: 2.8vw;
+    border: 1px solid #8E9CAD;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+	  width: 276px;
+	  height: 9.7vw;
+     background-color: #A2AFC0;
+     color: white;
+ }
 
 .contactus_here_for_you{
     display: block;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 130%;
+    margin-top: 1.2vw;
+    margin-bottom: 1.2vw;
+    margin-left: .7vw;
 }
 
 
+.contactus_email {
+ font-family: 'Lato', sans-serif;
+    font-weight: 300;
+margin-left: .7vw;
+
+}
+
+
+
+.contactus_phone {
+ font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    display: block;
+    width: 120;
+    height: 20;
+    margin-left: .7vw;
+    margin-bottom: 30px;
+
+
+}
 
 .footerbar_contactus_botton {
-	position: absolute;
+position: relative;
+
+
 }
+.footer_contactus_input {
+height: 25px;
+	width: 30%;
+	border: 3px solid #2199FF;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+ position: absolute;
+right: 1vw;
+top: -5.7vw;
+font-size: 100%;
+background-color: #33A1FF;
+color: white;
+}
+
+
+
+.allrightsreserved {
+	 font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    background-color: #F4F4F4;
+    padding-top: 3.5%;
+    border-bottom-width: 0px;
+}
+
+.trademark_text {
+
+	margin-left: 12%;
+	font-size: 60%;
+}
+
 /*span {
 	border-color: grey;
 	border-width: 10px;
